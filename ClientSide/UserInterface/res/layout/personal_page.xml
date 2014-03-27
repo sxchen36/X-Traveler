@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/loginbackground"
+    android:orientation="vertical"
+    tools:context=".PersonalPage" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/personalPage_UserImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/personalPage_UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            android:layout_weight="1.0"
+            android:text="User name" >
+        </TextView>
+
+        <Button
+            android:id="@+id/personal_page_new_travel_plan"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Plan" />
+
+        <Button
+            android:id="@+id/personal_page_goto_CityAcctraction"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/personalPage_wishlist_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wish to go..." >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/wish_to_go_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wish_to_go_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/wish_to_go_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/personalPage_havebeenlist_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin"
+
+
+        android:text="Have been to..." >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/have_been_to_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/have_been_to_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/have_been_to_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/personalPage_travelplan_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin"
+        android:text="Recent Travel Plan" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/personalPage_travelplan_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/personalPage_friendsnews_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_verticallayout_margin"
+        android:text="Friends&apos; news" >
+    </TextView>
+
+</LinearLayout>

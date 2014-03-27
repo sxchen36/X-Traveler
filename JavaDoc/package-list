@@ -1,0 +1,12 @@
+com.example.userinterface
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Control.main
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Control.main.commands
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Control.main.commands.factory
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Control.test
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Model.main
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Model.main.transactions
+edu.jhu.cs.oose.fall2013.group14.xtraveler.Model.test
+edu.jhu.cs.oose.fall2013.group14.xtraveler.command
+edu.jhu.cs.oose.fall2013.group14.xtraveler.main
+edu.jhu.cs.oose.fall2013.group14.xtraveler.userinterface
+edu.jhu.cs.oose.fall2013.group14.xtraveler.util

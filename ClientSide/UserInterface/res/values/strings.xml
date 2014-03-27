@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">X-Traveller</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sigh Up</string>
+    <string name="state">Find State</string>
+    <string name="plan">Traveling Plan</string>
+
+    <string-array name="State">
+        <item>Maryland</item>
+        <item>New York</item>
+        <item>Florida</item>
+    </string-array>
+
+    <string name="spinner_state_pomp">Select a state</string>
+        <string name="spinner_city_pomp">Select a city</string>
+
+    <string-array name="MDCity">
+        <item>Baltimore</item>
+        <item>Annapolis</item>
+        <item>Townson</item>
+    </string-array>
+    
+        <string-array name="NYCity">
+        <item>New York</item>
+    </string-array>
+    
+            <string-array name="FLCity">
+        <item>Orlando</item>
+        <item>Miami</item>
+        <item>Key West</item>
+    </string-array>
+
+</resources>

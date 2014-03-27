@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground"
+    tools:context=".MainPage" >
+
+    <Spinner
+        android:id="@+id/spinner_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_state_pomp" >
+    </Spinner>
+    
+        <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_city_pomp" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/spinner_state_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="You select State:"
+        android:textSize="10pt"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/spinner_state_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chosen State"
+        android:textSize="10pt"
+        android:textStyle="bold" >
+    </TextView>
+    
+        <TextView
+        android:id="@+id/spinner_city_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="You select City:"
+        android:textSize="10pt"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/spinner_city_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chosen City"
+        android:textSize="10pt"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/confirm_city_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Maryland_statemenu"
+        android:showAsAction="ifRoom"
+        android:title="Maryland"/>
+    <item
+        android:id="@+id/NewYork_statemenu"
+        android:title="New York"/>
+    <item
+        android:id="@+id/Florida_statemenu"
+        android:title="Florida"/>
+
+</menu>
