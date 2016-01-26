@@ -12,4 +12,5 @@ To run the app, follow the below instrction:
 
 
 Created at 2013 Fall by team-members: Sixiang Chen, Xiaoping Li, Shuli Shi, Shaojie Chen, Yinan Zhao
+
 Uploaded to github on 2014 Spring by team-member: Xiaoping Li 
